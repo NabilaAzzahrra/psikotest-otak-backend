@@ -13,7 +13,7 @@ module.exports = {
             phone,
             sekolah
         FROM
-            answers
+            Answers
         GROUP BY
             id_user, nama, phone, sekolah
     )
