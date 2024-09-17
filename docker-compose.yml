@@ -1,7 +1,7 @@
 version: "3.7"
 services:
   web:
-    container_name: otak_container
+    container_name: psikotest_otak_container
     build:
       context: .
       dockerfile: Dockerfile
