@@ -1,5 +1,9 @@
-var express = require('express');
-var router = express.Router();
+const express = require('express');
+const router = express.Router();
+
+const {
+    User,
+} = require('../models');
 
 /* GET users listing. */
 router.get('/', async (req, res) => {
