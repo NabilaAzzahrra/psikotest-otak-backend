@@ -15,7 +15,6 @@ const hasilsRouter = require("./routes/hasils");
 const app = express();
 
 const allowedOrigins = [
-  'https://test-otak.politekniklp3i-tasikmalaya.ac.id',
   'https://test-gaya-belajar.politekniklp3i-tasikmalaya.ac.id',
   'https://test-otak.politekniklp3i-tasikmalaya.ac.id',
   'https://sbpmb.politekniklp3i-tasikmalaya.ac.id',
